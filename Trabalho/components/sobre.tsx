@@ -18,7 +18,7 @@ export default function App() {
                     
                     <TouchableOpacity style={styles.button} onPress={() => setPage('home')}>
 
-                        <Text style={styles.buttonText}>Clique aqui</Text> 
+                        <Text style={styles.buttonText}>Obter localização</Text> 
                     </TouchableOpacity>
                 </View>
             );
@@ -56,14 +56,14 @@ const styles = StyleSheet.create({
     logo: {
         fontSize: 24,
         fontWeight: 'bold',
-        color: '#000',
+        color: '#7EC7E7',
         marginBottom: 50,
         right: 140,
     },
     button: {
-        backgroundColor: '#007BFF',
+        backgroundColor: '#E788FF',
         padding: 10,
-        borderRadius: 5,
+        borderRadius: 15,
         marginTop: 20,
     },
     buttonText: {

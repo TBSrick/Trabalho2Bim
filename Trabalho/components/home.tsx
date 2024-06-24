@@ -51,14 +51,14 @@ const styles = StyleSheet.create({
     logo: {
         fontSize: 24,
         fontWeight: 'bold',
-        color: '#000',
+        color: '#7EC7E7',
         marginBottom: 50,
         right: 140,
     },
     button: {
         padding: 10,
-        borderRadius: 5,
-        backgroundColor: 'blue',
+        borderRadius: 15,
+        backgroundColor: '#E788FF',
     },
     buttonText: {
         color: '#FFFFFF',
